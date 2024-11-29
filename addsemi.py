@@ -5,7 +5,7 @@ for line in file.splitlines():
     # Print each line
     string = line.rstrip() # Strip
     if string.endswith(")"): # Scan for need of semicolon
-        string = string + ";" # Add semicolon
+        string += ";" # Add semicolon
     #if string.startswith("  "): Wiped because of rstrip
      #   string = "  " + string
     
